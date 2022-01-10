@@ -1,0 +1,294 @@
+/*** Airbnb style.css ***/
+
+/*** Allgemein ***********************************/
+* {
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #484747;
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style: none;
+}
+h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+.clearleft {
+    clear: left;
+}
+
+/*** Struktur ************************************/
+.navbar {
+    height: 80px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.header {
+    height: 625px;
+    width: 100%;
+    background-image: url(imgs/hotel-2.jpg);
+    background-size: cover;
+}
+.container {
+    width: 1050px;
+    margin: auto;
+}
+.discover {
+    margin-top: 30px;
+    height: 130px;
+}
+.col-quarter {
+    width: 250px;
+    margin-right: 12.5px;
+    float: left;
+}
+.airbnbplus {
+    margin-top: 20px;
+}
+.accomodations {
+    margin: 40px 0px;
+}
+.footer {
+    margin: 40px 0px;
+    overflow: auto;
+}
+.row {
+    overflow: auto;
+}
+
+/*** Speziell **************************************/
+/* Nav */
+#logo,
+#logofooter {
+    width: 40px;
+    margin: 20px;
+    float: left;
+}
+.nav li {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.nav li a {
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid #212121;
+}
+
+/* Header */
+.search {
+    width: 950px;
+    margin: auto;
+    padding-top: 240px;
+}
+#claim {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 45px;
+    color: white;
+    text-shadow: 0px 0px 10px #484747;
+}
+.searchbar {
+    height: 70px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px #484747;
+}
+#magnifier {
+    width: 20px;
+    margin: 27.5px;
+    float: left;
+}
+#search input[type='text'] {
+    width: 750px;
+    font-size: 20px;
+    padding: 23px 0px;
+    border: none;
+}
+#search input[type='submit'] {
+    width: 90px;
+    margin: 11px;
+    height: 50px;
+    background-color: #ff6663;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 5px;
+    float: right;
+}
+
+/* Discover */
+.discover h3 {
+    margin-bottom: 10px;
+}
+.discoverprev {
+    width: 95px;
+    float: left;
+}
+.discovercat {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 22.5px 10px;
+    width: 135px;
+    box-shadow: 0px 0px 10px #999999;
+    float: left;
+}
+
+/* Airbnb Plus */
+.banner {
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-image: url(imgs/airbnbplus.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pluscontent {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.pluscontent p {
+    font-size: 22px;
+    text-shadow: 0px 0px 5px white;
+}
+.pluscontent a {
+    width: 290px;
+    padding: 15px;
+    margin: 20px 0px;
+    background-color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #484747;
+}
+.pluscontent a:hover {
+    background-color: lightgray;
+}
+.pluscontent img {
+    height: 40px;
+    float: left;
+}
+.pluscontent #signing {
+    float: left;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+/* Accommodations */
+.tiles {
+    overflow: auto;
+}
+.accomprev {
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.category,
+.city {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    float: left;
+}
+.city {
+    margin-left: 4px;
+}
+.desc {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+.price {
+    font-weight: 100;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+.rating {
+    font-size: 9px;
+}
+.rating ul li {
+    float: left;
+}
+.count {
+    float: left;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+#allaccoms {
+    margin-top: 30px;
+}
+#allaccoms a {
+    color: deepskyblue;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#allaccoms a:hover {
+    text-decoration: underline;
+}
+.footer .col-quarter select {
+    width: 230px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid lightgray;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+.footer .col-quarter h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 60px;
+}
+.footer .col-quarter ul {
+    padding-left: 60px;
+}
+.footer .col-quarter ul li {
+    margin: 4px 0px;
+}
+.footer .col-quarter ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: grey;
+}
+#footerhr {
+    margin-top: 30px;
+}
+#company {
+    float: left;
+    margin: 30px 0px;
+}
+#legalnav {
+    margin: 30px 0px;
+}
+#legalnav li {
+    float: right;
+    margin: 0px 5px;
+    font-size: 14px;
+}
+#legalnav li a {
+    text-decoration: none;
+}
+.social {
+    height: 15px;
+}
